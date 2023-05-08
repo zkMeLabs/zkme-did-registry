@@ -1,10 +1,10 @@
-# Zkme DID Registry Contract
+# zkMe DID Registry Contract
 
-This library is an implementation of a registry contract that supports the Zkme DID Method.
+This library is an implementation of a registry contract that supports the zkMe DID Method.
 
 ## Overview
 
-The Zkme registry contract acts as a public ledger, where the Zkme-Identity specified Decentralised Identifiers will be logged. The specifications related to Zkme DID method are mentioned in the document. A DID generated using the Zkme DID generator, can be stored and managed on the ledger using this contract library.
+The zkMe registry contract acts as a public ledger, where the zkMe-Identity specified Decentralised Identifiers will be logged. The specifications related to zkMe DID method are mentioned in the document. A DID generated using the zkMe DID generator, can be stored and managed on the ledger using this contract library.
 
 ## Contract Deployment
 
@@ -16,7 +16,7 @@ The Zkme registry contract acts as a public ledger, where the Zkme-Identity spec
 
 - `createDID(address, string)` : The method createDID is used to create and log a new DID on the zetachain. The parameter of address type, will act as the reference key, to refer the did document stored on the chain. The string type variable will contain the did document, that will be stored on the matic chain.
 
-- `updateDIDDoc(address, string)` : The method updateDID is included in contract, which will facilitate the controller, and only the controller of the did, to update the document if need arises. Though the Zkme DID method, defines how the DID doc is defined as per standards, and that can be resolved.
+- `updateDIDDoc(address, string)` : The method updateDID is included in contract, which will facilitate the controller, and only the controller of the did, to update the document if need arises. Though the zkMe DID method, defines how the DID doc is defined as per standards, and that can be resolved.
 
 - `deleteDIDDoc(address)` : The method deleteDID is included in the contract, that only the controller of DID can access, to delete a particular DID from ledger.
 
@@ -26,15 +26,15 @@ The Zkme registry contract acts as a public ledger, where the Zkme-Identity spec
 
 - `getOwner()` : the method getOwner helps one to fetch the current owner of the contract.
 
-- `getTotalNumberOfDIDs()` : the method getTotalNumberOfDIDs helps one to fetch the total number of DIDs ever written on Zkme Ledger, with the number of currently active DIDs.
+- `getTotalNumberOfDIDs()` : the method getTotalNumberOfDIDs helps one to fetch the total number of DIDs ever written on zkMe Ledger, with the number of currently active DIDs.
 
-- `getTotalNumberOfDeletedDIDs()`: the method getTotalNumberOfDeletedDIDs helps one fetch the total number of DIDs deleted from Zkme Ledger.
+- `getTotalNumberOfDeletedDIDs()`: the method getTotalNumberOfDeletedDIDs helps one fetch the total number of DIDs deleted from zkMe Ledger.
 
 - `getDIDDOcByIndex(uint256)` : The method getDIDDOcByIndex helps,to resolve DID document by index.
 
 ## Example ethers code
 
-Using ethers, the following illustrates how one can interact with ZkmeDidRegistry contract, from client side application.
+Using ethers, the following illustrates how one can interact with zkMeDidRegistry contract, from client side application.
 
 ## Loading the Contract
 
@@ -95,7 +95,7 @@ https://hardhat.org/hardhat-runner/docs/getting-started
 Clone the above repository
 
 ```
-git clone https://github.com/zkMeLabs/zkme-did-registry
+git clone https://github.com/zkMeLabs/zkMe-did-registry
 ```
 
 Install Dependencies
