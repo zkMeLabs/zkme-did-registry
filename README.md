@@ -4,7 +4,7 @@ This library is an implementation of a registry contract that supports the zkMe 
 
 ## Overview
 
-The zkMe registry contract acts as a public ledger, where the zkMe-Identity specified Decentralised Identifiers will be logged. The specifications related to zkMe DID method are mentioned in the document. A DID generated using the zkMe DID generator, can be stored and managed on the ledger using this contract library.
+The zkMe registry contract serves as a public ledger for logging zkMe-Identity specified Decentralised Identifiers. The document outlines the specifications related to the zkMe DID method. This contract library can be used to store and manage a DID generated using the zkMe DID generator on the ledger.
 
 ## Contract Deployment
 
